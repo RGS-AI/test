@@ -16,7 +16,7 @@ diabetesmodel = pickle.load(open('Models/diabetes_model.sav', 'rb'))
 parkinsonsmodel = pickle.load(open('Models/parkinsons_model.sav', 'rb'))
 
 with st.sidebar:
-    selected = option_menu("Choose the disease", ['Heart Disease', 'Diabetes Prediction', 'General', 'Parkinsons', 'About'], default_index=0)
+    selected = option_menu("Choose the disease", ['Heart Disease', 'Diabetes Prediction', 'Parkinsons', 'About'], default_index=0)
 
 if selected == 'Heart Disease':
     st.write(f"## Heart Disease Prediction")
