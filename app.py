@@ -78,8 +78,8 @@ if selected == 'Diabetes Prediction':
         prediction = diabetesmodel.predict(data_array)
         st.write(f"## The prediction is {prediction}")
 
-if selected == 'General':
-    st.write(f"## General Prediction")
+#if selected == 'General':
+    #st.write(f"## General Prediction")
 
 
 if selected == 'Parkinsons':
